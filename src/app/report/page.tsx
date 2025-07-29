@@ -76,7 +76,7 @@ export default function ReportPage() {
       <div className="max-w-4xl mx-auto">
         <header className="mb-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold text-primary font-headline">Quiz Report</h1>
-          <p className="text-lg text-muted-foreground mt-2">Here's how you did, {email || 'Quiz Taker'}!</p>
+          <p className="text-lg text-muted-foreground mt-2">Here&apos;s how you did, {email || 'Quiz Taker'}!</p>
         </header>
 
         <Card className="mb-8 shadow-lg">
