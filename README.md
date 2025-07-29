@@ -1,3 +1,6 @@
+
+
+
 # 🎯 Quiz Application – CausalFunnel Coding Assignment
 
 Welcome to the Quiz Application built as part of the Software Engineer Intern evaluation for **CausalFunnel**. This project demonstrates my ability to design, build, and deploy a functional, user-friendly web application with a strong focus on clean code, interactivity, and real-time features.
@@ -42,6 +45,29 @@ Welcome to the Quiz Application built as part of the Software Engineer Intern ev
 - **API**: [Open Trivia DB](https://opentdb.com/api.php?amount=15)
 - **Deployment**: Vercel
 
+
+## 📌 Assumptions
+
+- Email is just for user flow, not stored.
+- Only one answer per question.
+- API response is trusted to be correct.
+- No backend or persistent storage used.
+
+---
+
+## 🚧 Challenges Faced
+
+- Faced issues with component rendering and API data — resolved by adjusting the component structure.
+- TypeScript strict mode caused some build issues, so it was disabled (`strict: false`).
+- ESLint errors blocked Vercel deployment — temporarily turned off to deploy smoothly.
+
+---
+
+## 🎁 Bonus Touches
+
+- Mobile responsive  
+- Smooth transitions between questions  
+- Neatly styled with Tailwind CSS
 ---
 
 ## 🛠️ Setup Instructions
@@ -50,3 +76,4 @@ Welcome to the Quiz Application built as part of the Software Engineer Intern ev
    ```bash
    git clone https://github.com/rajeshchauhan1426/quiz-babu.git
    cd quizbabu
+   npm run dev 
