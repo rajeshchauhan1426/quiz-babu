@@ -181,7 +181,7 @@ export function QuizClient({ questions: rawQuestions }: QuizClientProps) {
           </AlertDialogHeader>
           <AlertDialogFooter>
             <Button variant="outline" onClick={() => setShowSubmitDialog(false)}>Cancel</Button>
-            <Button onClick={handleSubmit} className="bg-accent text-accent-foreground hover:bg-accent/90">Submit</Button>
+            <Button onClick={handleSubmit} className="bg- text-accent-foreground hover:bg-accent/90">Submit</Button>
           </AlertDialogFooter>
         </AlertDialogContent>
       </AlertDialog>

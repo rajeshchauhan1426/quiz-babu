@@ -96,12 +96,14 @@ export default function ReportPage() {
             <div className="w-full md:w-1/2 h-40">
               <ChartContainer config={chartConfig} className="w-full h-full">
                 <ResponsiveContainer>
+                  {/* The layout="vertical" prop has been moved here */}
                   <RechartsBarChart accessibilityLayer data={chartData} layout="vertical" margin={{ left: 10, right: 10 }}>
                     <ChartTooltip
                       cursor={false}
                       content={<ChartTooltipContent indicator="dot" hideLabel />}
                     />
-                    <Bar dataKey="value" layout="vertical" radius={5} />
+                    
+                    <Bar dataKey="value" radius={5} />
                   </RechartsBarChart>
                 </ResponsiveContainer>
               </ChartContainer>
