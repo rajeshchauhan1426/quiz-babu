@@ -49,4 +49,4 @@ Welcome to the Quiz Application built as part of the Software Engineer Intern ev
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/rajeshchauhan1426/quiz-babu.git
-   cd quiz-app-quizbabu
+   cd quizbabu
